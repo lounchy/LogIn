@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Registro"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nombre_registro_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nombre" />
+    <EditText
+        android:id="@+id/altura_registro_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Altura" />
+
+    <EditText
+        android:id="@+id/usuario_registro_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Usuario " />
+    <EditText
+        android:id="@+id/contraseña_registro_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Contraseña " />
+
+    <Button
+        android:id="@+id/crear_nueva_cuenta_button"
+        android:layout_width="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta Nueva"
+        android:textAllCaps="false"/>
+
+
+
+
+
+</LinearLayout>

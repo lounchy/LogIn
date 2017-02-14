@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Inicio de sesión"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usuario_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Usuario" />
+
+    <EditText
+        android:id="@+id/contraseña_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Contraseña" />
+
+    <Button
+        android:id="@+id/entrar_button"
+        android:layout_width="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+
+
+
+    <Button
+        android:id="@+id/no_tienes_cuenta_button"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:textAllCaps="false"
+        android:text="¿Todavia no tienes la cuenta? Registrate" />
+
+
+</LinearLayout>
