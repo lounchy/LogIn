@@ -6,35 +6,52 @@ package com.example.lounchy.login;
 
 public class Usuario {
     private int id;
-    private String nombre;
+    private String nombrePersona;
     private String altura;
-    private String usuario;
-    private String contraseña;
+    private String nombreUsuario;
+    private String contrasenia;
 
-    public Usuario(int id, String nombre, String altura, String usuario, String contraseña) {
-        this.id = id; this.nombre = nombre; this.altura = altura; this.usuario = usuario; this.contraseña = contraseña;
-        setNombre(nombre); setId(id); setAltura(altura); setUsuario(usuario); setContraseña(contraseña);
+
+
+    public Usuario(String nombrePersona, String altura, String nombreUsuario, String contrasenia) {
+        this.nombrePersona = nombrePersona;
+        this.altura = altura;
+        this.nombreUsuario = nombreUsuario;
+        this.contrasenia = contrasenia;
     }
 
+
+    public Usuario(String usuario, String contrasenia){
+        this.nombreUsuario = usuario;
+        this.contrasenia = contrasenia;
+    }
+
+    public Usuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
+    }
+
+    public Usuario(int id) {
+        this.id = id;
+    }
     public Usuario(){}
 
     public int getId() {return id;}
 
     public void setId(int id) {this.id = id;}
 
-    public String getNombre() {return nombre;}
+    public String getNombrePersona() {return nombrePersona;}
 
-    public void setNombre(String nombre) {this.nombre = nombre;}
+    public void setNombrePersona(String nombrePersona) {this.nombrePersona = nombrePersona;}
 
     public String getAltura() {return altura;}
 
     public void setAltura(String altura) {this.altura = altura;}
 
-    public String getUsuario() {return usuario;}
+    public String getNombreUsuario() {return nombreUsuario;}
 
-    public void setUsuario(String usuario) {this.usuario = usuario;}
+    public void setNombreUsuario(String nombreUsuario) {this.nombreUsuario = nombreUsuario;}
 
-    public String getContraseña() {return contraseña;}
+    public String getContrasenia() {return contrasenia;}
 
-    public void setContraseña(String contraseña) {this.contraseña = contraseña;}
+    public void setContrasenia(String contrasenia) {this.contrasenia = contrasenia;}
 }
